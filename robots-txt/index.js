@@ -1,3 +1,11 @@
+/**
+ * Set up a robots.txt
+ *
+ * @module @rikvermeulen/middlewares-robots-txt
+ * @access public
+ * @since 1.0.0
+ */
+
 module.exports = (disallowAll = false, extraDisallowRules = []) => {
   Logger.info(
     `[ROBOTS.TXT] Enabled! Disallow All: ${
