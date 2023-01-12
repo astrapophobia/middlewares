@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/astrapophobia/middlewares.git"
   },
-  "keywords": [],
   "author": "",
   "license": "MIT",
+  "sideEffects": false,
   "engines": {
     "node": ">=16.0.0"
   },
