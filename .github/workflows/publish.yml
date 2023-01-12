@@ -22,7 +22,7 @@ jobs:
           file-name: robots-txt/package.json
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish @rikvermeulen/middlewares-robots-txt
-        if: steps.robotsTxt.outputs.changed == 'true'
+        # if: steps.robotsTxt.outputs.changed == 'true'
         run: npm publish robots-txt --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
