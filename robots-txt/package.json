@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/neobeach/middlewares.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
