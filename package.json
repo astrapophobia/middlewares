@@ -1,6 +1,6 @@
 {
   "name": "middlewares",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/astrapophobia/middlewares/issues"
   },
-  "homepage": "https://github.com/astrapophobia/middlewares#readme",
   "devDependencies": {
     "prettier": "^2.8.2",
     "tslint": "^6.1.3",
