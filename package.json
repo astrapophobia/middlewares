@@ -8,14 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/astrapophobia/middlewares.git"
+    "url": "https://github.com/astrapophobia/middlewares.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/astrapophobia/middlewares/issues"
-  },
   "devDependencies": {
     "prettier": "^2.8.2",
     "tslint": "^6.1.3",
