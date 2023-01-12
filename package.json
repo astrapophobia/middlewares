@@ -1,6 +1,6 @@
 {
-  "name": "middlewares",
-  "version": "1.0.1",
+  "name": "@rikvermeulen/middlewares",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
