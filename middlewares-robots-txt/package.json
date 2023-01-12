@@ -1,0 +1,23 @@
+{
+  "name": "@astrapophobia/middlewares-robots-txt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrapophobia/middlewares.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/astrapophobia/middlewares/issues"
+  },
+  "devDependencies": {}
+}
