@@ -7,18 +7,18 @@
  */
 
 module.exports = (disallowAll = false, extraDisallowRules = []) => {
-  Logger.info(
+  console.info(
     `[ROBOTS.TXT] Enabled! Disallow All: ${
       disallowAll ? "Enabled" : "Disabled"
     }, Extra Disallow Rules: ${JSON.stringify(extraDisallowRules)}`
   );
-  Logger.info(`[ROBOTS.TXT] Exposed: /robots.txt`);
+  console.info(`[ROBOTS.TXT] Exposed: /robots.txt`);
 
   /**
    * Check if disallowAll is correct
    */
   if (typeof disallowAll === "undefined" || typeof disallowAll !== "boolean") {
-    Logger.error("[ROBOTS.TXT] disallowAll is not correct");
+    console.error("[ROBOTS.TXT] disallowAll is not correct");
   }
 
   /**
@@ -28,10 +28,11 @@ module.exports = (disallowAll = false, extraDisallowRules = []) => {
     typeof extraDisallowRules === "undefined" ||
     !Array.isArray(extraDisallowRules)
   ) {
-    Logger.error("[ROBOTS.TXT] extraDisallowRules is not correct");
+    console.error("[ROBOTS.TXT] extraDisallowRules is not correct");
   }
 
   return (req, res, next) => {
+    console.log(req, res);
     if (req.originalUrl.indexOf("robots.txt") !== -1) {
       const userAgent = "User-agent: *";
       const sitemap = `Sitemap: ${req.protocol}://${req.headers.host}/sitemap.xml`;

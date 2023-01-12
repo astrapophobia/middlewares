@@ -1,6 +1,6 @@
 {
   "name": "@rikvermeulen/middlewares-robots-txt",
-  "version": "1.0.1.1",
+  "version": "1.0.2",
   "description": "robot",
   "main": "index.js",
   "sideEffects": false,
